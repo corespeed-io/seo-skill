@@ -12,8 +12,10 @@ CoreSpeed's MCP server. It covers:
 **Status:** prepared for publication. No license has been chosen yet; until
 one is added, all rights are reserved.
 
-Owner: He (Milton) Yan ([@MiltonHeYan](https://github.com/MiltonHeYan)),
-CoreSpeed.
+Repository: [corespeed-io/seo-skill](https://github.com/corespeed-io/seo-skill).
+
+Maintained by CoreSpeed. Co-author: He (Milton) Yan
+([@MiltonHeYan](https://github.com/MiltonHeYan)).
 
 ## Contents
 
