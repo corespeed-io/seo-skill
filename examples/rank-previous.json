@@ -1,0 +1,41 @@
+{
+  "schema": "seo-skill/snapshot/v1",
+  "kind": "rank",
+  "site": "example.com",
+  "source": "web__run_scraper:example-author/google-serp-scraper",
+  "measurement": "live_serp_position",
+  "geography": "US",
+  "device": "desktop",
+  "engine": "google",
+  "language": "en",
+  "depth": 20,
+  "captured_at": "2026-09-28T08:00:00Z",
+  "note": "Synthetic example data.",
+  "rows": [
+    {
+      "keyword": "seo audit checklist",
+      "position": 3,
+      "url": "https://www.example.com/guides/seo-audit/"
+    },
+    {
+      "keyword": "technical seo audit",
+      "position": 8,
+      "url": "https://www.example.com/guides/technical/"
+    },
+    {
+      "keyword": "site audit tool",
+      "position": 14,
+      "url": "https://www.example.com/tools/audit/"
+    },
+    {
+      "keyword": "seo audit template",
+      "position": 6,
+      "url": "https://www.example.com/templates/audit/"
+    },
+    {
+      "keyword": "free seo audit",
+      "position": null,
+      "url": null
+    }
+  ]
+}

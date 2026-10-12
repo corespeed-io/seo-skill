@@ -1,0 +1,26 @@
+{
+  "schema": "seo-skill/snapshot/v1",
+  "kind": "metric",
+  "site": "example.com",
+  "source": "web__run_scraper:example-author/domain-rating-checker",
+  "measurement": "vendor_domain_metrics",
+  "geography": "global",
+  "device": "all",
+  "captured_at": "2026-09-12T08:00:00Z",
+  "note": "Synthetic example data. A vendor's own metric; never compare it with another vendor's.",
+  "rows": [
+    {
+      "metric": "domain_rating",
+      "value": 30,
+      "unit": "0-100"
+    },
+    {
+      "metric": "referring_domains",
+      "value": 120
+    },
+    {
+      "metric": "backlinks",
+      "value": 400
+    }
+  ]
+}

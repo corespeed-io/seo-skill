@@ -1,0 +1,27 @@
+{
+  "schema": "seo-skill/budget/v1",
+  "approved_total_credits": 60,
+  "per_call_max_credits": 40,
+  "note": "Synthetic example: what the user approved for one audit, and each paid call against it.",
+  "entries": [
+    {
+      "at": "2026-10-12T09:00:00Z",
+      "tool": "web__run_scraper",
+      "scraper": "example-author/domain-rating-checker",
+      "input_hash": "0000000000000001",
+      "cap_credits": 2,
+      "status": "settled",
+      "charged_credits": 0.75,
+      "run_id": "example-run-1"
+    },
+    {
+      "at": "2026-10-12T09:05:00Z",
+      "tool": "web__run_scraper",
+      "scraper": "example-author/site-overview-scraper",
+      "input_hash": "0000000000000002",
+      "cap_credits": 20,
+      "status": "unknown",
+      "run_id": "example-run-2"
+    }
+  ]
+}

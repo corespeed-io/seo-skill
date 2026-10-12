@@ -1,0 +1,21 @@
+{
+  "schema": "seo-skill/snapshot/v1",
+  "kind": "rank",
+  "site": "example.com",
+  "source": "web__run_scraper:example-author/google-serp-scraper",
+  "measurement": "live_serp_position",
+  "geography": "US",
+  "device": "mobile",
+  "engine": "google",
+  "language": "en",
+  "depth": 20,
+  "captured_at": "2026-10-12T08:00:00Z",
+  "note": "Synthetic example data.",
+  "rows": [
+    {
+      "keyword": "seo audit checklist",
+      "position": 5,
+      "url": "https://www.example.com/guides/seo-audit/"
+    }
+  ]
+}
