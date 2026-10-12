@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="646" viewBox="0 0 640 646" role="img" aria-labelledby="title desc">
+  <title id="title">How the CoreSpeed SEO skill works</title>
+  <desc id="desc">Five steps: check tools and prices; audit pages and search results; plan by impact over effort; fix only after your OK; track with snapshots and diffs. Spending needs approval before the audit, and each site change needs approval before a fix. Tracking repeats from the audit on a schedule.</desc>
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0.25">
+      <stop offset="0" stop-color="#5AA2FF"/>
+      <stop offset="0.48" stop-color="#A98BF5"/>
+      <stop offset="1" stop-color="#F07AB5"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5AA2FF"/>
+      <stop offset="0.48" stop-color="#A98BF5"/>
+      <stop offset="1" stop-color="#F07AB5"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <marker id="arrowLoop" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1l7 4-7 4" fill="none" stroke="#A98BF5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect x="0.5" y="0.5" width="639" height="645" rx="23.5" fill="#0F1118" stroke="#2A2E3C"/>
+  <path d="M92 80V568" stroke="url(#rail)" stroke-width="4" stroke-linecap="round"/>
+  
+  <circle cx="92" cy="151" r="17" fill="#0F1118" stroke="#A98BF5" stroke-width="2.5"/>
+  <g transform="translate(81 140) scale(0.9166666666666666)" fill="none" stroke="#A98BF5" stroke-width="2.509090909090909" stroke-linecap="round" stroke-linejoin="round"><rect x="5.5" y="10.5" width="13" height="9.5" rx="2"/><path d="M8.5 10.5V8a3.5 3.5 0 0 1 7 0v2.5"/></g>
+  <path d="M116 151H140" stroke="#A98BF5" stroke-width="2" stroke-dasharray="2 5" stroke-linecap="round"/>
+  <rect x="148" y="133" width="196.5" height="36" rx="18" fill="#171A24" stroke="#A98BF5" stroke-width="2"/>
+  <text id="t16" x="165" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#A98BF5">approve spend</text>
+  <circle cx="92" cy="395" r="17" fill="#0F1118" stroke="#F07AB5" stroke-width="2.5"/>
+  <g transform="translate(81 384) scale(0.9166666666666666)" fill="none" stroke="#F07AB5" stroke-width="2.509090909090909" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M8.3 12.2l2.5 2.5 5-5.2"/></g>
+  <path d="M116 395H140" stroke="#F07AB5" stroke-width="2" stroke-dasharray="2 5" stroke-linecap="round"/>
+  <rect x="148" y="377" width="209" height="36" rx="18" fill="#171A24" stroke="#F07AB5" stroke-width="2"/>
+  <text id="t17" x="165" y="402" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#F07AB5">approve change</text>
+  
+  <circle cx="92" cy="80" r="34" fill="#171A24" stroke="url(#brand)" stroke-width="4" filter="url(#shadow)"/>
+  <g transform="translate(77 65) scale(1.25)" fill="none" stroke="#ECEDF3" stroke-width="1.8399999999999999" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="4" width="14" height="17" rx="2.5"/><path d="M9 4.2V3h6v1.2"/><path d="M8.6 12.4l2.3 2.3 4.6-4.8"/></g>
+  <circle cx="118" cy="54" r="13" fill="#ECEDF3"/>
+  <text id="t1" x="118" y="59" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="800" fill="#171A24" text-anchor="middle">1</text>
+  <text id="t2" x="150" y="77" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="#ECEDF3">Check</text>
+  <text id="t3" x="150" y="105" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" fill="#A6ABBC">tools and prices</text>
+  <circle cx="92" cy="222" r="34" fill="#171A24" stroke="url(#brand)" stroke-width="4" filter="url(#shadow)"/>
+  <g transform="translate(77 207) scale(1.25)" fill="none" stroke="#ECEDF3" stroke-width="1.8399999999999999" stroke-linecap="round" stroke-linejoin="round"><circle cx="10.5" cy="10.5" r="6"/><path d="M15 15l5 5"/></g>
+  <circle cx="118" cy="196" r="13" fill="#ECEDF3"/>
+  <text id="t4" x="118" y="201" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="800" fill="#171A24" text-anchor="middle">2</text>
+  <text id="t5" x="150" y="219" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="#ECEDF3">Audit</text>
+  <text id="t6" x="150" y="247" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" fill="#A6ABBC">pages and search results</text>
+  <circle cx="92" cy="324" r="34" fill="#171A24" stroke="url(#brand)" stroke-width="4" filter="url(#shadow)"/>
+  <g transform="translate(77 309) scale(1.25)" fill="none" stroke="#ECEDF3" stroke-width="1.8399999999999999" stroke-linecap="round" stroke-linejoin="round"><path d="M5 6.5h14M5 12h10M5 17.5h6"/></g>
+  <circle cx="118" cy="298" r="13" fill="#ECEDF3"/>
+  <text id="t7" x="118" y="303" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="800" fill="#171A24" text-anchor="middle">3</text>
+  <text id="t8" x="150" y="321" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="#ECEDF3">Plan</text>
+  <text id="t9" x="150" y="349" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" fill="#A6ABBC">impact ÷ effort</text>
+  <circle cx="92" cy="466" r="34" fill="#171A24" stroke="url(#brand)" stroke-width="4" filter="url(#shadow)"/>
+  <g transform="translate(77 451) scale(1.25)" fill="none" stroke="#ECEDF3" stroke-width="1.8399999999999999" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 5.5l4 4L9 19H5v-4z"/><path d="M12.5 7.5l4 4"/></g>
+  <circle cx="118" cy="440" r="13" fill="#ECEDF3"/>
+  <text id="t10" x="118" y="445" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="800" fill="#171A24" text-anchor="middle">4</text>
+  <text id="t11" x="150" y="463" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="#ECEDF3">Fix</text>
+  <text id="t12" x="150" y="491" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" fill="#A6ABBC">only after your OK</text>
+  <circle cx="92" cy="568" r="34" fill="#171A24" stroke="url(#brand)" stroke-width="4" filter="url(#shadow)"/>
+  <g transform="translate(77 553) scale(1.25)" fill="none" stroke="#ECEDF3" stroke-width="1.8399999999999999" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18l5-5 3.5 3 7.5-8"/><path d="M15 8h5v5"/></g>
+  <circle cx="118" cy="542" r="13" fill="#ECEDF3"/>
+  <text id="t13" x="118" y="547" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" font-weight="800" fill="#171A24" text-anchor="middle">5</text>
+  <text id="t14" x="150" y="565" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="#ECEDF3">Track</text>
+  <text id="t15" x="150" y="593" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" fill="#A6ABBC">snapshots and diffs</text>
+  <path d="M410 576H576Q590 576 590 562V228Q590 214 576 214H412" fill="none" stroke="#A98BF5" stroke-width="2.5" stroke-dasharray="7 7" stroke-linecap="round" marker-end="url(#arrowLoop)"/>
+  <rect x="560" y="393" width="60" height="64" fill="#0F1118"/>
+  <g transform="translate(577 397) scale(1.0833333333333333)" fill="none" stroke="#A98BF5" stroke-width="2.123076923076923" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18l5-5 3.5 3 7.5-8"/><path d="M15 8h5v5"/></g>
+  <text id="t18" x="590" y="447" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#A98BF5" text-anchor="middle">repeat</text>
+</svg>

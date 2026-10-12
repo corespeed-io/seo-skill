@@ -1,59 +1,77 @@
-# CoreSpeed for SEO — agent skill
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+    <img alt="CoreSpeed for SEO: your agent's SEO analyst" src="assets/hero-light.svg" width="100%">
+  </picture>
+</p>
 
-An agent skill that audits and grows a site's organic search through
-CoreSpeed's MCP server. It covers:
+<p align="center">
+  <b>Audit, plan, fix and track a site's organic search from inside your AI agent.</b><br>
+  Every number has a source. Every paid call has a cap. Every change needs your OK.
+</p>
 
-- a technical and on-page audit from public pages;
-- competitor and vendor metrics through approved, capped scraper runs;
-- a prioritized action plan;
-- user-approved fixes through a connected CMS, then a recheck;
-- repeatable rank and metric reports.
+## Get started
 
-**Status:** prepared for publication. No license has been chosen yet; until
-one is added, all rights are reserved.
+```bash
+git clone https://github.com/corespeed-io/seo-skill.git ~/.claude/skills/corespeed-seo
+```
 
-Repository: [corespeed-io/seo-skill](https://github.com/corespeed-io/seo-skill).
+Then ask Claude Code to **audit the SEO of your site**. If CoreSpeed is not
+connected yet, the skill walks your agent through the
+[CoreSpeed setup](https://corespeed.io/SKILL.md) first.
 
-Maintained by CoreSpeed. Co-author: He (Milton) Yan
-([@MiltonHeYan](https://github.com/MiltonHeYan)).
+Other agents that read `SKILL.md` files: clone the repository into their
+skills folder.
 
-## Contents
+## How it works
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/workflow-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/workflow-light.svg">
+    <img alt="Five steps: check tools and prices, audit, plan, fix after your approval, track. Spend and site changes each need approval." src="assets/workflow-light.svg" width="640">
+  </picture>
+</p>
+
+| Rule | What it means |
+| --- | --- |
+| **Sourced** | Every figure names its source, date, country and device. Missing is never zero. |
+| **Capped** | One approved, capped paid call at a time. A paid call is never repeated blindly. |
+| **Approved** | No change to your site without your explicit yes to that change. |
+
+## What you get
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/report-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/report-light.svg">
+    <img alt="Sample rank report for example.com, made from synthetic data: 6 keywords compared, 4 anomalies flagged." src="assets/report-light.svg" width="640">
+  </picture>
+</p>
+
+<p align="center"><sub>Synthetic data about example.com from <a href="examples/">examples/</a>. Not a real audit.</sub></p>
+
+Make this report yourself, offline (Node.js 18+, no packages, no network):
+
+```bash
+cd ~/.claude/skills/corespeed-seo
+node scripts/seo-skill.mjs diff examples/rank-previous.json examples/rank-current.json
+```
+
+## Inside
 
 | Path | What |
 | --- | --- |
-| `SKILL.md` | The skill an agent loads |
-| `references/` | Tools and their status, budget rules, scraper notes, data meanings, report templates, remediation, snapshots |
-| `scripts/seo-skill.mjs` | Offline helpers: validate, diff, budget ledger, input hash |
-| `examples/` | Synthetic example.com snapshots, a ledger and a scraper input |
-| `tests/` | Offline tests for the scripts and the documents |
-| `PROVENANCE.md` | Where every file came from, and what was left out |
+| [`SKILL.md`](SKILL.md) | The skill your agent loads |
+| [`references/`](references/) | Tools, budget rules, data sources, report templates, fixes, rank tracking |
+| [`scripts/seo-skill.mjs`](scripts/seo-skill.mjs) | Offline helpers: `validate`, `diff`, `budget`, `hash` |
+| [`examples/`](examples/) | Synthetic example.com snapshots, ledger and scraper input |
+| [`tests/`](tests/) | Offline tests: `npm test` |
+| [`PROVENANCE.md`](PROVENANCE.md) | Where each file came from |
 
-## Use
+**Runs on** CoreSpeed's MCP server (`https://api.corespeed.io/mcp`): web
+search and scraping, and capped scraper runs. **Uses when connected:** managed
+SEO data, Google Search Console, GA4 and your CMS. None of these are required.
 
-Install the skill in an agent that reads `SKILL.md` files, with CoreSpeed's
-MCP server connected (`https://api.corespeed.io/mcp`).
-
-The scripts need Node.js 18 or later, no packages and no network:
-
-```bash
-node scripts/seo-skill.mjs validate examples/rank-current.json
-node scripts/seo-skill.mjs diff examples/rank-previous.json examples/rank-current.json
-node scripts/seo-skill.mjs budget check examples/ledger.json --tool web__run_scraper --cap 10
-npm test        # or: node --test tests/*.test.mjs
-```
-
-## What it needs and what it does not
-
-- **Needs:**
-  - a CoreSpeed account with the MCP server connected;
-  - `web__scrape` / `web__search` (billed per call);
-  - the scraper catalog: `web__list_scrapers`, `web__get_scraper`,
-    `web__run_scraper`, `web__get_scraper_run`;
-  - for fixes, a connected CMS.
-- **Uses when present:** `seo__*` (managed SEO data), and
-  `google-search-console__*` / `google-analytics__*` (the user's own site
-  data). None of these are required.
-- **Never:**
-  - spends without an approved, capped call;
-  - repeats a paid call to retry it;
-  - writes to a site without approval of the exact change.
+<sub>License: not chosen yet. Until one is added, all rights are reserved.</sub>
