@@ -15,7 +15,8 @@ test("SKILL.md has the frontmatter an agent reads", () => {
 test("every relative link in the documents resolves to a file", () => {
   for (const doc of docs) {
     const text = readFileSync(join(root, doc), "utf8");
-    for (const [, target] of text.matchAll(/\]\(([^)]+)\)/g)) {
+    const targets = [...text.matchAll(/\]\(([^)]+)\)|\b(?:src|srcset|href)="([^"]+)"/g)].map((m) => m[1] ?? m[2]);
+    for (const target of targets) {
       if (/^(https?:|mailto:|#)/.test(target)) continue;
       const path = resolve(dirname(join(root, doc)), target.split("#")[0]);
       assert.ok(existsSync(path), `${doc} links to missing ${target}`);

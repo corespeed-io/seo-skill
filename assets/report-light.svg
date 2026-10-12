@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1062" viewBox="0 0 640 1062" role="img" aria-labelledby="title desc">
+  <title id="title">Sample rank report for example.com (synthetic data)</title>
+  <desc id="desc">A rank report made by the skill's diff command from the repository's synthetic example snapshots for example.com: 6 keywords compared and 4 anomalies flagged. Not real data.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#202438" flood-opacity="0.08"/>
+    </filter></defs>
+  <rect x="0.5" y="0.5" width="639" height="1061" rx="23.5" fill="#F5F5F7" stroke="#E3E4EA"/>
+  <text id="t1" x="36" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#0066CC" letter-spacing="2.2">SAMPLE REPORT</text>
+  <rect x="390" y="36" width="214" height="38" rx="19" fill="#FFF3D1" stroke="#9A6700" stroke-opacity="0.55"/>
+  <text id="t2" x="497" y="61" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" font-weight="800" fill="#9A6700" text-anchor="middle" letter-spacing="1">SYNTHETIC DATA</text>
+  <text id="t3" x="36" y="118" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="32" font-weight="800" fill="#202438" letter-spacing="-0.5">Rank report — example.com</text>
+  <text id="t4" x="36" y="152" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" fill="#555A6E">Google · US · desktop · en · top 20</text>
+  <text id="t5" x="36" y="180" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" fill="#555A6E">Sep 28 → Oct 12, 2026</text>
+  <rect x="36" y="206" width="568" height="428" rx="16" fill="#FFFFFF" stroke="#E3E4EA"/>
+  
+  <text id="t6" x="56" y="240" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#202438">free seo audit</text>
+  <text id="t7" x="56" y="266" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#555A6E">not ranking → 18</text>
+  
+  <rect x="492" y="221" width="94" height="30" rx="15" fill="#E7F0FB"/>
+  <text id="t8" x="539" y="241.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#0066CC" text-anchor="middle">entered</text>
+  <path d="M54 280H586" stroke="#E3E4EA"/>
+  <text id="t10" x="56" y="310" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#202438">seo audit checklist</text>
+  <text id="t11" x="56" y="336" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#555A6E">3 → 9</text>
+  <text id="t9" x="256" y="336" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#C4302B">▼ 6 places</text>
+  <rect x="483" y="291" width="103" height="30" rx="15" fill="#FDECEA"/>
+  <text id="t12" x="534.5" y="311.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#C4302B" text-anchor="middle">declined</text>
+  <path d="M54 350H586" stroke="#E3E4EA"/>
+  <text id="t13" x="56" y="380" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#202438">seo audit software</text>
+  <text id="t14" x="56" y="406" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#555A6E">not measured → 19</text>
+  
+  <rect x="379" y="361" width="207" height="30" rx="15" fill="#EEEFF3"/>
+  <text id="t15" x="482.5" y="381.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#6E7387" text-anchor="middle">not measured before</text>
+  <path d="M54 420H586" stroke="#E3E4EA"/>
+  <text id="t16" x="56" y="450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#202438">seo audit template</text>
+  <text id="t17" x="56" y="476" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#555A6E">6 → not measured</text>
+  
+  <rect x="408" y="431" width="178" height="30" rx="15" fill="#EEEFF3"/>
+  <text id="t18" x="497" y="451.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#6E7387" text-anchor="middle">not measured now</text>
+  <path d="M54 490H586" stroke="#E3E4EA"/>
+  <text id="t20" x="56" y="520" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#202438">site audit tool</text>
+  <text id="t21" x="56" y="546" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#555A6E">14 → 11</text>
+  <text id="t19" x="256" y="546" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1A7F37">▲ 3 places</text>
+  <rect x="483" y="501" width="103" height="30" rx="15" fill="#E7F5EB"/>
+  <text id="t22" x="534.5" y="521.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1A7F37" text-anchor="middle">improved</text>
+  <path d="M54 560H586" stroke="#E3E4EA"/>
+  <text id="t23" x="56" y="590" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#202438">technical seo audit</text>
+  <text id="t24" x="56" y="616" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#555A6E">8 → not ranking</text>
+  
+  <rect x="455" y="571" width="131" height="30" rx="15" fill="#FDECEA"/>
+  <text id="t25" x="520.5" y="591.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#C4302B" text-anchor="middle">dropped out</text>
+  <text id="t26" x="36" y="668" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="23" font-weight="800" fill="#202438">Anomalies (4)</text>
+  <rect x="36" y="686" width="568" height="70" rx="14" fill="#FFFFFF" stroke="#E3E4EA"/>
+  <rect x="50" y="698" width="96" height="26" rx="13" fill="#FDECEA"/>
+  <text id="t27" x="98" y="716" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="800" fill="#C4302B" text-anchor="middle" letter-spacing="1">HIGH</text>
+  <text id="t28" x="160" y="717" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#202438">Coverage gap</text>
+  <text id="t29" x="52" y="745" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17.5" fill="#555A6E">1 of 5 keywords were not measured this time</text>
+  <rect x="36" y="766" width="568" height="70" rx="14" fill="#FFFFFF" stroke="#E3E4EA"/>
+  <rect x="50" y="778" width="96" height="26" rx="13" fill="#FDECEA"/>
+  <text id="t30" x="98" y="796" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="800" fill="#C4302B" text-anchor="middle" letter-spacing="1">HIGH</text>
+  <text id="t31" x="160" y="797" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#202438">Dropped out</text>
+  <text id="t32" x="52" y="825" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17.5" fill="#555A6E">technical seo audit: 8 → not in the top 20</text>
+  <rect x="36" y="846" width="568" height="70" rx="14" fill="#FFFFFF" stroke="#E3E4EA"/>
+  <rect x="50" y="858" width="96" height="26" rx="13" fill="#FFF3D1"/>
+  <text id="t33" x="98" y="876" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="800" fill="#9A6700" text-anchor="middle" letter-spacing="1">MEDIUM</text>
+  <text id="t34" x="160" y="877" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#202438">Large drop</text>
+  <text id="t35" x="52" y="905" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17.5" fill="#555A6E">seo audit checklist: 3 → 9</text>
+  <rect x="36" y="926" width="568" height="70" rx="14" fill="#FFFFFF" stroke="#E3E4EA"/>
+  <rect x="50" y="938" width="96" height="26" rx="13" fill="#FFF3D1"/>
+  <text id="t36" x="98" y="956" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="800" fill="#9A6700" text-anchor="middle" letter-spacing="1">MEDIUM</text>
+  <text id="t37" x="160" y="957" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#202438">URL changed</text>
+  <text id="t38" x="52" y="985" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17.5" fill="#555A6E">seo audit checklist: /guides/seo-audit/ → /blog/audit-checklist/</text>
+  <text id="t39" x="36" y="1032" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" fill="#7D8295">made by seo-skill.mjs diff · examples/ · synthetic</text>
+</svg>
